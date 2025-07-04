@@ -16,7 +16,7 @@ use SilverStripe\Core\Injector\Factory;
  */
 class AuditFactory implements Factory
 {
-    public function create(string $service, array $params = []): LoggerInterface
+    public function create(string $service, array $params = []): ?object
     {
         if (!empty($params)) {
             throw new Exception('AuditFactory does not support passing params.');
