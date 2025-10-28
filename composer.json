@@ -12,7 +12,7 @@
         "silverstripe/framework": "^6",
         "monolog/monolog": "^3.2",
         "psr/log": "^3",
-        "tractorcow/silverstripe-proxy-db": "dev-pulls/cms6-support"
+        "tractorcow/silverstripe-proxy-db": "^3"
     },
     "require-dev": {
         "silverstripe/recipe-testing": "^4",
